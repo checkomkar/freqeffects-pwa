@@ -1,0 +1,8 @@
+/* .fqfx-bg-default{
+	@extend .blue-grey, .darken-3
+} */
+@import 'variables';
+
+nav{
+	background-color: $dark-bg !important;
+}

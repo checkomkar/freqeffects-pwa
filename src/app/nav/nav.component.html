@@ -1,0 +1,38 @@
+<mz-navbar>
+    <mz-navbar-item-container [align]="'left'">
+        <mz-navbar-item><a href="#" [id]="'btn-sidenav'"><i class="material-icons">dehaze</i></a></mz-navbar-item>        
+    </mz-navbar-item-container>
+  <a href="#" class="brand-logo center">freqeffects</a>
+  <mz-navbar-item-container [align]="'right'">
+    <mz-navbar-item><a href="#">Sass</a></mz-navbar-item>
+    <mz-navbar-item><a href="#">Components</a></mz-navbar-item>
+    <mz-navbar-item><a routerLink="js">JavaScript</a></mz-navbar-item>
+  </mz-navbar-item-container>
+</mz-navbar>
+
+<mz-sidenav
+  [id]="'sidenav'"
+  [collapseButtonId]="'btn-sidenav'">
+    <mz-sidenav-header>
+        <div class="user-view">
+            <div class="background">
+                <img src="http://materializecss.com/images/office.jpg">
+            </div>
+            <a href="#!user"><img class="circle" src="http://materializecss.com/images/yuna.jpg"></a>
+            <a href="#!name"><span class="white-text name">John Doe</span></a>
+            <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+        </div>
+    </mz-sidenav-header>
+  <mz-sidenav-subheader>Link Subheader</mz-sidenav-subheader>
+  <mz-sidenav-link>
+    <a href="#">First Link</a>
+  </mz-sidenav-link>
+  <mz-sidenav-divider></mz-sidenav-divider>
+  <mz-sidenav-link [active]="true">
+    <a href="#">Active Link</a>
+  </mz-sidenav-link>
+  <mz-sidenav-divider></mz-sidenav-divider>
+  <mz-sidenav-link>
+    <a href="#" class="waves-effect">Second Link With Waves</a>
+  </mz-sidenav-link>
+</mz-sidenav>
