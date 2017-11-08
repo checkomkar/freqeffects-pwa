@@ -5,4 +5,24 @@ section{
 		display: flex;
 		//color: white;
 	}
+	&.bg{
+		background-image: url('../../assets/images/guitarist-1031087_1920.jpg');
+		background-size: cover;
+		color: white;
+		background-position: 50%;
+		padding: 100px 0;
+		text-shadow: 5px 5px 10px #000;
+		p{
+			font-size: 16px;
+			width: 50%;
+			margin: 15px auto;
+		}
+	}
+	.valign-wrapper{
+		height: 500px;
+		h3,p{
+			display: block;
+			width: 100%;
+		}
+	}
 }
